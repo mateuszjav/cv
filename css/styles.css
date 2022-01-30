@@ -1,0 +1,178 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#title {
+  background-color: #c7b198;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* DOWNLOAD BUTTONS */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Tedi img */
+.tedi-img {
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* FUTURES */
+
+#features {
+  background-color: #fff;
+  padding: 10% 15%;
+  position: relative;
+}
+
+.feature {
+  text-align: center;
+  padding: 20px;
+}
+
+.feature-icon {
+  color: #ef8172;
+  font-size: 4.5rem;
+  margin-bottom: 15px;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.feature-desc {
+  color: #8f8f8f;
+}
+
+/* TESTIMONIAL SECTION */
+
+#testimonials {
+  text-align: center;
+  background-color: #f0ece3;
+}
+
+.testimonials-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 10% 15%;
+}
+
+.testimonial-text {
+  font-weight: bold;
+}
+
+#press {
+  background-color: #f0ece3;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*  PRICING SECTION*/
+
+#pricing {
+  padding: 5rem;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1252px) {
+  .tedi-img {
+    transform: rotate(0deg);
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .tedi-img {
+    transform: rotate(25deg);
+    position: relative;
+    top: 21%;
+  }
+
+  .container-fluid {
+    padding: 3% 15% 1%;
+  }
+}
+
+#cta {
+  background-color: #f0ece3;
+  text-align: center;
+  padding: 7% 10%;
+}
+
+.cta-header {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+#footer {
+  padding: 5% 10%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.footer-icons {
+  font-size: 2rem;
+  margin: 20px 15px;
+}
+
+.footer-copyright {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #8f8f8f;
+}
